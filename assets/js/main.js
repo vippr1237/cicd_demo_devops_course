@@ -54,7 +54,7 @@ function start() {
   };
 
   btnNo.onclick = () => {
-    btnNo.style.top = 100 + "px";
+    btnNo.style.top = Math.random()*400 + "px";
     btnYes.style.top = 280 + "px";
   };
 

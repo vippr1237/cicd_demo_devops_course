@@ -1,7 +1,7 @@
 :root {
   --white-color: #fff;
   --black-color: #000;
-  --text-color: #333;
+  --text-color: #f70ff7;
 
   --header-height: 124px;
   --width-btn: 340px;
@@ -37,12 +37,13 @@ body {
   overflow: hidden;
   flex-direction: column;
   flex: 1;
-  background-image: linear-gradient(to right top, #cb5eee, #4be1ec);
+  /* background-image: linear-gradient(to right top, #cb5eee, #4be1ec);
   animation: changeColor 4s ease-in-out;
   -webkit-animation: changeColor 4s ease-in-out;
   -moz-animation: changeColor 4s ease-in-out;
   -o-animation: changeColor 4s ease-in-out;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
+  background-image: url(Hoa.jpg);
 }
 
 @keyframes changeColor {
