@@ -6,8 +6,14 @@ on:
       - "main"
 
 jobs:
+  prepration:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: "Hello, this is test pipeline"
+
   deploy:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
 
       - name: Deploy to Prod server
