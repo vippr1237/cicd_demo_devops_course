@@ -43,7 +43,7 @@ body {
   -moz-animation: changeColor 4s ease-in-out;
   -o-animation: changeColor 4s ease-in-out;
   animation-iteration-count: infinite; */
-  background-image: url(Hoa.jpg);
+  background-image: url(image/pink.png);
 }
 
 @keyframes changeColor {
